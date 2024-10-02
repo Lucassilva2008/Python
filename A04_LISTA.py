@@ -17,13 +17,50 @@ listaComElementos[3:8:2] # pega do terceiro ao setimo de 2 em 2
 print(listaComElementos[3:8:2])
 
 len(listaComElementos)# retorna número de elementos
-print(len:(listaComElementos:))
+    #print (len:(listaComElementos:))
 
 max(listaComElementos)# retorna o maior valor
-print(max:(listaComElementos:))
+    #print(max:(listaComElementos:))
 
 min(listaComElementos)# retorna o menor valor
 sum(listaComElementos)# retorna a soma de todos elementos
 
 print(sum(listaComElementos))
-sorted(listaComElementos)# retorna  lista em ordem crescente
+sorted(listaComElementos)# retorna a lista em ordem crescente
+
+listaVazia.append(1) # adiciona um elemento
+listaVazia.append("Texto")
+listaVazia.append(True)
+
+print(listaVazia)
+
+listaVazia.insert(2, "novo elemento") #  adiciona elementos no indice 2
+
+print(listaVazia)
+
+listaVazia.remove("Texto") # remove o primeiro elemento encontrado
+print(listaVazia)
+
+print(listaVazia.pop(0))
+print(listaVazia)
+
+print(listaVazia.index("novo elemento"))
+
+ListaNacoes = ["Brasil","Eua", "China", "Canada", "Inglaterra"]
+
+print(ListaNacoes.count("Eua"))
+
+novalista = ListaNacoes.copy()
+print(novalista)
+
+temElemento = 'Canada' in novalista
+print(temElemento)
+
+while True:
+    if "Brasil" in ListaNacoes
+    print("Descobri o Brasil")
+    ListaNacoes.remove("Brasil")
+elif "Inglaterra" in ListaNacoes:
+
+
+
