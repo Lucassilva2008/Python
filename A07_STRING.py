@@ -2,7 +2,7 @@ string = "Hello world!"
 for caracter in string:
     print(caracter)
 
-    print(string[6])
+    ,print(string[6])
     print(string[7:12])
     print("Olá, Mundo"[5:10])
     print("Bom dia!"[-1])
