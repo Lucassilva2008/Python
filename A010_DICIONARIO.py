@@ -14,9 +14,6 @@ print(dicionario.get("Estado"))
 print(dicionario.get("Chaveinexistente", "Valor alternativo se chave não existir"))
 
 
-#frutas = {
-    #"Laranja; R$5,00", 
-    #"Pera: R$3,00"
-#}
+frutas = { "Laranja; R$5,00",  "Pera: R$3,00"}
 
-#print(frutas)
+print(frutas)
