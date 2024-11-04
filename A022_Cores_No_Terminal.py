@@ -21,7 +21,7 @@ print("\033[1;0;45m PyCharm \033[1;31;44m Python")
 
 azul = "\033[1;34m"
 limpa = "\033[m"
-nome = "Parisotto"
+nome = "Lucas"
 print(f"{limpa}")
 print(f"Olá, {azul}{nome}{limpa}! Como vai?")
 

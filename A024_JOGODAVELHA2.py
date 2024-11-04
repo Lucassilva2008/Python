@@ -3,7 +3,7 @@
 # Professor de programação
 # www.parisotto.net
 # modificado por ... em (data)
-#
+
 import pygame
 
 pygame.init()
