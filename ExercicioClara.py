@@ -1,3 +1,4 @@
+
 from collections import defaultdict
 
 # Função principal
@@ -54,6 +55,14 @@ vendas = [
 
 # Executando a análise
 analisar_vendas(vendas)
+
+
+
+
+
+
+
+
 
 
 
